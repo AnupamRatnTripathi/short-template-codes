@@ -27,3 +27,127 @@
                                     <div class="likes"><i class="fa fa-thumbs-up like"></i><i class="fa fa-thumbs-down dislike"></i></div>
                                 </div>
                             </article>
+----------------------styling of this list goes here------------------------
+
+.article-container .post article{
+    background-color: #fff;
+    box-shadow: 10px 5px 10px #333;
+    margin-top: 15px;
+}
+.article-comment-count{
+    position: absolute;
+    padding: 5px;
+    background-color: #333;
+    color: #fff;
+    font-size: 12px;
+    margin: 10px 0 0 -4px;    
+}
+.article-category {
+    border-radius: 2px;
+    position: absolute;
+    margin: 10px 0 0 50px;
+    font-size: 12px;
+    padding: 5px 5px 5px 5px;
+    text-transform: uppercase;
+    background-color: #dd3333;
+    color: #fff;
+}
+.article-category i {
+    float: right;
+    border-style: solid;
+    border-width: 14px 5px 14px 10px;
+    margin: -5px -15px -5px 0px;
+    height: 1px;
+    width: 0px;
+    border-color: #dd3333 transparent #dd3333 #dd3333 !important;
+}
+.article-comment-count i.tip {
+    float: right;
+    border-style: solid;
+    border-width: 14px 5px 14px 10px;
+    margin: -5px -15px -5px 0px;
+    height: 1px;
+    width: 0px;
+    border-color: #333 transparent #333 #333 !important;
+}
+
+.article-poster img{
+    width: 100%;
+}
+.social-share{
+    height: 30px;
+    width: 100%;
+}
+article:hover .social-share a{
+    opacity: 1;
+}
+.social-share a {
+    float: left;
+    width: 20%;
+    opacity: 0.5;
+    text-align: center;
+    color: #fff;
+    line-height: 30px;
+}
+.facebook-share{
+    background-color: #3b5998;
+}
+.twitter-share{
+    background-color: #00aced;
+}
+.google-plus-share{
+    background-color: #eb4026;
+}
+.pintrest-share{
+    background-color: #ca212a;
+}
+.whatsapp-share{
+    background-color: #56af36;
+}
+.heading{
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-size: 1.3rem;
+}
+.rating{
+    color: #ffd700;
+    display: inline-block;
+    padding-right: 10px;
+}
+.info span{
+    color: #94979c;
+}
+.info span a{
+    color: #333;
+    padding-left: 7px;
+    text-decoration: underline;
+    text-decoration-color: #007bff;
+}
+.article-overview{
+    color: #94979c;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+.article-footer{
+    width: 100%;
+    background-color: #dcdcdc;
+    padding: 8px 8px 8px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #808080;
+}
+.article-footer i{
+    margin-right: 5px;
+}
+.article-footer .added{
+    display: inline;
+}
+.article-footer .likes{
+    float: right;
+    margin-right: 20px;
+}
+.like:hover{
+    color: #007bff;
+}
+.dislike:hover{
+    color: #dd3333;
+}
