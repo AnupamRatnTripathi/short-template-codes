@@ -1,0 +1,29 @@
+                        <article>
+                             <div class="article-comment-count"><i class='fa fa-comments'></i> <span>128</span></div>
+                               <div class="article-category"><i></i><span>Arts</span></div>
+                               <a href="#" class="article-poster"><img src="images/1.jpg" alt="article Poster"></a>
+                               <div class="social-share">
+                                   <a href="#"><div class="facebook-share"><i class="fa fa-facebook-official"></i></div></a>
+                                   <a href="#"><div class="twitter-share"><i class="fa fa-twitter-square"></i></div></a>
+                                   <a href="#"><div class="google-plus-share"><i class="fa fa-google-plus-circle"></i></div></a>
+                                   <a href="#"><div class="pintrest-share"><i class="fa fa-pinterest"></i></div></a>
+                                   <a href="#"><div class="whatsapp-share"><i class="fa fa-whatsapp"></i></div></a>                  
+                               </div>
+                               <div class="article-info container py-2">
+                                   <h2 class="heading">An Overview of Corporate Finance and the Financial Environment</h2>
+                                   <div class="info">
+                                        <div class="rating">
+                                            <i class="fa fa-star"> </i>
+                                            <span>5.3</span>
+                                        </div>
+                                        <span>Written By:<a href="#">Anupam Tripathi</a></span>
+                                    </div>
+                                    <p class="article-overview">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.
+                                    </p>
+                                </div>
+                                <div class="article-footer">
+                                    <div class="added"><i class="fa fa-clock-o"></i><span style="margin-right: 10px">3 Month ago</span><i class="fa fa-eye"></i><span>210 Views</span></div>
+                                    <div class="likes"><i class="fa fa-thumbs-up like"></i><i class="fa fa-thumbs-down dislike"></i></div>
+                                </div>
+                            </article>
